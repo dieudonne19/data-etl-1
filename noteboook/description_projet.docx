@@ -1,0 +1,33 @@
+Projet : Recommandation de Destinations Touristiques Basée sur la Météo
+
+Description Générale :
+Ce projet vise à aider les utilisateurs à choisir une destination touristique idéale en se basant sur des analyses météorologiques. Grâce à l'intégration de l'API Open-Meteo, le système collecte et étudie les données météorologiques de plusieurs villes à travers le monde. Les analyses incluent :
+- Les prévisions météo sur 3 jours (forecast)
+- Les archives météorologiques (archive)
+- Les conditions météorologiques actuelles (current)
+
+Objectifs :
+- Permettre à l'utilisateur de comparer les conditions météorologiques de différentes destinations.
+- Proposer des recommandations de voyage en fonction de la météo.
+- Visualiser et explorer les données météorologiques actuelles et prévisionnelles.
+
+Étapes du Projet :
+1. Collecte des données via l'API Open-Meteo pour plusieurs villes.
+2. Stockage des données brutes et transformées dans des fichiers CSV organisés par type (archive, current, forecast).
+3. Transformation et fusion des données pour faciliter l'analyse (scripts extract, transform, merge).
+4. Visualisation des résultats et recommandations.
+
+Structure du Projet :
+- scripts/ : scripts Python pour l'extraction, la transformation et la fusion des données.
+- data/raw/ : données brutes collectées.
+- data/processed/ : données prêtes à l'analyse.
+- data/star_schema/ : schéma en étoile pour l'analyse avancée.
+- noteboook/ : notebook d'analyse exploratoire et ce document descriptif.
+
+Technologies :
+- Python (pandas, matplotlib, etc.)
+- API Open-Meteo
+- Jupyter Notebook
+
+Conclusion :
+Ce projet met en avant l'importance de la donnée météorologique dans la planification touristique et propose un outil d'aide à la décision pour les voyageurs.
